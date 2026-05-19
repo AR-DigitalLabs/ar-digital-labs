@@ -2,7 +2,62 @@ export const navigation = [
   { label: "Services", href: "#services" },
   { label: "Who We Serve", href: "#audiences" },
   { label: "Process", href: "#process" },
+  { label: "Events", href: "#events" },
   { label: "Contact", href: "#contact" },
+];
+
+export const events = [
+  {
+    id: "painted-flower-pots",
+    title: "Painted Flower Pots Class",
+    titleEs: "Clase de Macetas Pintadas",
+    tagline: "Create, Relax and Take Home Your Own Piece of Art!",
+    taglineEs: "¡Crea, Relájate y Llévate a Casa Tu Propia Obra de Arte!",
+    dates: [
+      { label: "Monday, May 18", labelEs: "Lunes 18 de Mayo" },
+      { label: "Thursday, May 21", labelEs: "Jueves 21 de Mayo" },
+    ],
+    dateNote: "Choose your option",
+    dateNoteEs: "Escoge una opción",
+    time: "6:00 PM",
+    address: "300 State St, Office 203, NL",
+    registerNote: "Text to register",
+    registerNoteEs: "Envía text al",
+    phone: "860-514-7610",
+    cost: "$15.00",
+    costNote: "Materials included",
+    costNoteEs: "Materiales incluidos",
+    badge: "Limited spots per class!",
+    badgeEs: "¡Cupos limitados por cada clase!",
+    cta: "Come, Learn, Create and Connect.",
+    ctaEs: "Aprende, Crea y Conecta.",
+    accent: "from-rose-400 to-fuchsia-500",
+  },
+  {
+    id: "crecimiento-personal",
+    title: "Personal Growth with Impact",
+    titleEs: "Crecimiento Personal con Impacto",
+    tagline: "Presence that opens doors.",
+    taglineEs: "Presencia que abre puertas.",
+    quote:
+      "Tu presencia es tu poder. Aprende a cultivarla, proyectarla y convertirla en oportunidades reales.",
+    dates: [{ label: "Friday, June 5, 2026", labelEs: "Viernes, 5 de Junio 2026" }],
+    time: "5:00 PM",
+    address: "300 State Street, Office 203, New London, CT",
+    registerNote: "Text to reserve your spot",
+    registerNoteEs: "Envía un texto al",
+    phone: "(860) 514-7610",
+    speaker: {
+      name: "Johanna Irizarry",
+      credentials: "BA Sociology",
+      bio: "20 años de experiencia en servicios sociales",
+      leadership: [
+        "Harvard Business School – Advancing Women of Color in Leadership",
+        "Programa de Liderazgo con la Greater Norwich Area Chamber of Commerce",
+      ],
+    },
+    accent: "from-violet-400 to-purple-600",
+  },
 ];
 
 export const heroHighlights = [

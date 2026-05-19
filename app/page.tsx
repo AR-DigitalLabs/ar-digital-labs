@@ -1,11 +1,13 @@
 import { AudienceSection } from "@/components/audience-section";
 import { CtaSection } from "@/components/cta-section";
+import { EventsSection } from "@/components/events-section";
 import { Hero } from "@/components/hero";
 import { ProcessSection } from "@/components/process-section";
 import { ServicesGrid } from "@/components/services-grid";
 import { SiteHeader } from "@/components/site-header";
 import {
   audiences,
+  events,
   heroHighlights,
   navigation,
   processSteps,
@@ -27,6 +29,7 @@ export default function Home() {
         <ServicesGrid cards={serviceCards} />
         <AudienceSection audiences={audiences} pillars={valuePillars} />
         <ProcessSection steps={processSteps} />
+        <EventsSection items={events} />
         <CtaSection />
       </div>
     </main>
